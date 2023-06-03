@@ -1,0 +1,25 @@
+.add {
+  font-weight: bold;
+  text-align: right;
+  display: inline-flexbox;
+  position: relative;
+  top: -76px;
+}
+.add input {
+  width: 1.5rem;
+  border: 1px solid #ccc;
+  margin-left: 2px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.add button {
+  background-color: rgb(162, 19, 0);
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  color: white;
+  height: 120%;
+  margin-top: 5px;
+  border-radius: 20px;
+}
