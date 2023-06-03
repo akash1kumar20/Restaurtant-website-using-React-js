@@ -1,0 +1,29 @@
+.price {
+  /* border: 1px solid red; */
+  text-align: left;
+  width: 50%;
+  color: red;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.name {
+  /* border: 1px solid red; */
+  width: 50%;
+  padding-top: 5px;
+  text-align: left;
+  font-weight: bolder;
+  margin-top: 5px;
+  font-family: serif;
+}
+.free {
+  /* border: 1px solid red; */
+  text-align: left;
+  width: 50%;
+  font-weight: bold;
+  margin: 2px;
+  font-family: "Courier New", monospace;
+}
+.box {
+  margin: 5px;
+  padding: 5px;
+}

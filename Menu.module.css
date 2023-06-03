@@ -1,0 +1,11 @@
+.menu {
+  text-align: left;
+  color: black;
+  max-width: 60%;
+  max-height: auto;
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  right: 22%;
+  padding: 10px;
+}
