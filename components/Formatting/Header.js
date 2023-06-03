@@ -1,6 +1,7 @@
 import classes from "./Header.module.css";
 import imgToUse from ".//nick-karvounis-Ciqxn7FE4vE-unsplash.jpg";
 import HeaderButton from "./HeaderButton";
+import Summary from "../Display/Summary";
 const Header = (props) => {
   return (
     <>
@@ -14,6 +15,7 @@ const Header = (props) => {
       >
         <img src={imgToUse} alt="Table" />
       </div>
+      <Summary />
     </>
   );
 };
