@@ -1,0 +1,31 @@
+.item {
+  font-size: 120%;
+  font-weight: bold;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.close {
+  color: rgb(162, 19, 0);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 5px;
+  border-radius: 20px;
+  align-items: end;
+}
+.order {
+  border-radius: 20px;
+  margin-left: 5px;
+  background-color: rgb(162, 19, 0);
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.box {
+  text-align: end;
+}
