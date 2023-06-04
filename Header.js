@@ -7,7 +7,9 @@ const Header = (props) => {
     <>
       <header className={classes.header}>
         <h1>The Lalit's</h1>
-        <HeaderButton />
+        <HeaderButton onclick={props.onShow} />
+        {/* When HeaderButton is clicked we want to render onShow pointer which have the function to make cart visible. 
+        Here onClick is custom name */}
       </header>
       <div
         className={classes["main-image"]}
