@@ -1,0 +1,63 @@
+.item {
+  font-size: 120%;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: space-between;
+  margin-right: 0.5rem;
+  padding: 5px;
+}
+
+.close {
+  color: rgb(162, 19, 0);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 5px;
+  border-radius: 20px;
+  align-items: end;
+}
+.order {
+  border-radius: 20px;
+  margin-left: 5px;
+  background-color: rgb(162, 19, 0);
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.box {
+  text-align: end;
+}
+.headingPrice {
+  width: 45%;
+  font-size: 150%;
+  margin-left: 1rem;
+  font-weight: bolder;
+  text-align: right;
+  /* border: 1px solid red; */
+  float: right;
+  padding-right: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.heading {
+  width: 45%;
+  font-size: 150%;
+  margin-left: 1rem;
+  font-weight: bolder;
+  float: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nameTag {
+  /* border: 1px solid black; */
+  width: 50%;
+  list-style: none;
+  float: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.priceTag {
+  list-style: none;
+  /* border: 1px solid red; */
+  text-align: right;
+  /* top: -110px; */
+  width: 50%;
+  float: right;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}

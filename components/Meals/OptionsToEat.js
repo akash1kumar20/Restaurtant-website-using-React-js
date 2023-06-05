@@ -1,5 +1,5 @@
-import classes from "./OptionsToEat.module.css";
 import Card from "../UI/Card";
+import OptionsIterating from "./OptionsIterating";
 const OPTIONS = [
   {
     id: "m1",
@@ -9,14 +9,14 @@ const OPTIONS = [
   },
   {
     id: "m2",
-    dish: "Dosa",
-    extraItem: "Masala Dosa with sambhar",
+    dish: "Masala Dosa",
+    extraItem: "Sambhar & Chutney",
     price: 120,
   },
   {
     id: "m3",
     dish: "Dam Aloo",
-    extraItem: "With Green Chutney and Sirka Piyaz",
+    extraItem: "Green Chutney",
     price: 220,
   },
   {
@@ -26,17 +26,21 @@ const OPTIONS = [
     price: 500,
   },
 ];
+
 const OptionsToEat = () => {
+  const optionsList = OPTIONS.map((meal) => (
+    <OptionsIterating
+      key={meal.id}
+      name={meal.dish}
+      price={meal.price}
+      free={meal.extraItem}
+    />
+  ));
+
   return (
-    <Card>
-      {OPTIONS.map((meal) => (
-        <div>
-          <div className={classes.name}>Item__ {meal.dish}</div>
-          <div className={classes.free}>Also in the box__ {meal.extraItem}</div>
-          <div className={classes.price}>Price__ ₹{meal.price}</div>
-        </div>
-      ))}
-    </Card>
+    <section>
+      <Card>{optionsList}</Card>
+    </section>
   );
 };
 export default OptionsToEat;

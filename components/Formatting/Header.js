@@ -1,13 +1,15 @@
 import classes from "./Header.module.css";
 import imgToUse from ".//nick-karvounis-Ciqxn7FE4vE-unsplash.jpg";
 import HeaderButton from "./HeaderButton";
-import Summary from "../Display/Summary";
+
 const Header = (props) => {
   return (
     <>
       <header className={classes.header}>
         <h1>The Lalit's</h1>
-        <HeaderButton />
+        <HeaderButton onclick={props.onShow} />
+        {/* When HeaderButton is clicked we want to render onShow pointer which have the function to make cart visible. 
+        Here onClick is custom name */}
       </header>
       <div
         className={classes["main-image"]}
@@ -15,7 +17,6 @@ const Header = (props) => {
       >
         <img src={imgToUse} alt="Table" />
       </div>
-      <Summary />
     </>
   );
 };

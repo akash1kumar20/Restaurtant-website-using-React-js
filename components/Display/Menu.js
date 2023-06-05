@@ -1,10 +1,14 @@
 import classes from "./Menu.module.css";
 import OptionsToEat from "../Meals/OptionsToEat";
-const Menu = () => {
+import Summary from "./Summary";
+const Menu = (props) => {
   return (
-    <div className={classes.menu}>
-      <OptionsToEat />
-    </div>
+    <>
+      <Summary />
+      <div className={classes.menu}>
+        <OptionsToEat />
+      </div>
+    </>
   );
 };
 export default Menu;

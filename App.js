@@ -1,6 +1,7 @@
 import Header from "./components/Formatting/Header";
 import Menu from "./components/Display/Menu";
 import Cart from "./components/Cart/Cart";
+import DataProvider from "./data_room/DataProvider";
 import { useState } from "react";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
     cartVisibility(false);
   };
   return (
-    <div className="App">
+    <DataProvider>
+      {/* as our all components needs data, that's wrapping all the components inside DataProvider */}
       <header className="App-header">
         {cartHolder && <Cart onHide={cartHidden} />}
         <Header onShow={cartVisibile} />
@@ -23,7 +25,7 @@ function App() {
       <main>
         <Menu />
       </main>
-    </div>
+    </DataProvider>
   );
 }
 
