@@ -11,6 +11,8 @@
   border-radius: 25px;
   font-weight: bold;
   position: relative;
+  left: 10rem;
+  /* height: 200%; */
 }
 
 .button:hover,

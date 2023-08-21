@@ -1,0 +1,131 @@
+.item {
+  font-size: 120%;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: space-between;
+  padding: 5px;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+.close {
+  color: rgb(162, 19, 0);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 5px;
+  border-radius: 20px;
+  align-items: end;
+}
+.order {
+  border-radius: 20px;
+  margin-left: 5px;
+  background-color: rgb(162, 19, 0);
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.box {
+  text-align: left;
+  float: right;
+  padding-right: 1rem;
+}
+
+.heading {
+  float: left;
+  width: 50%;
+  font-size: 150%;
+  font-weight: bolder;
+  float: left;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+.headingPrice {
+  padding-bottom: 0.5rem;
+  text-align: right;
+  padding-right: 2rem;
+  float: right;
+  width: 50%;
+  font-size: 150%;
+  font-weight: bolder;
+  float: left;
+}
+
+.nameTag {
+  /* border: 1px solid black; */
+  width: 50%;
+  list-style: none;
+  float: left;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
+.priceTag {
+  width: 50%;
+  font-size: 80%;
+  justify-content: space-between;
+}
+.price {
+  color: brown;
+  width: 50%;
+  border-bottom: 2px solid rgba(162, 19, 0, 0.2);
+  float: left;
+}
+.quantity {
+  width: 50%;
+  border-bottom: 2px solid rgba(162, 19, 0, 0.2);
+  float: right;
+  text-align: left;
+}
+.btn {
+  width: 50%;
+  text-align: right;
+  display: inline-flexbox;
+  position: relative;
+  float: right;
+  border-bottom: 2px solid rgba(162, 19, 0, 0.2);
+  top: -36px;
+  padding-bottom: 2px;
+  text-align: right;
+}
+.plus {
+  color: rgb(12, 145, 12);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.5);
+  height: 2rem;
+  font-size: medium;
+  font-weight: bolder;
+}
+.min {
+  font-weight: bolder;
+  font-size: medium;
+  height: 2rem;
+  color: rgb(162, 19, 0);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+.min:hover {
+  color: white;
+  background-color: rgb(162, 19, 0);
+}
+.plus:hover {
+  color: white;
+  background-color: rgb(12, 145, 12);
+}
+.styleOutput {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.3rem;
+  padding-top: 0.2rem;
+  margin-right: 2px;
+  margin-left: 2px;
+  border-radius: 15%;
+  background-color: black;
+  color: white;
+}
+.img {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  left: 17.5rem;
+}
